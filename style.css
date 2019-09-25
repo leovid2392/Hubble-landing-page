@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?nmroqh');
-  src:  url('../fonts/icomoon.eot?nmroqh#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?nmroqh') format('truetype'),
-    url('../fonts/icomoon.woff?nmroqh') format('woff'),
-    url('../fonts/icomoon.svg?nmroqh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?nmroqh');
+  src:  url('fonts/icomoon.eot?nmroqh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nmroqh') format('truetype'),
+    url('fonts/icomoon.woff?nmroqh') format('woff'),
+    url('fonts/icomoon.svg?nmroqh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -53,10 +53,18 @@ h1{
   width: 45%;
 }
 
+
 .hero img{
   width: 45%;
 }
 
-.call-to-actions{
-  
+.call-to-action{
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  box-shadow: 5px 3px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  display: inline-block;
+  margin-top: 20px;
 }
