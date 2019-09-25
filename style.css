@@ -25,12 +25,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+
 
 body {
   background-color: hsl(257, 40%, 49%);
   background-image: url('images/bg-desktop.svg');
   padding: 2rem;
-
+  margin: 0;
 }
 
 /* font-family: 'Poppins', sans-serif;
@@ -67,4 +86,19 @@ h1{
   color: hsl(257, 40%, 49%);
   display: inline-block;
   margin-top: 20px;
+}
+
+footer{
+  text-align: right;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 0 20px;
+  display: inline-block;
+  height: 20px;;
 }
